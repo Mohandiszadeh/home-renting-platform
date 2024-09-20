@@ -20,21 +20,17 @@ https://www.youtube.com/watch?v=dR8qX2cMPcE&t=25s
 
 <img align="center" alt="GIT" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" style="max-width:100%;">[Git](https://git-scm.com)</img>
 
-<img align="center" alt="NodeJS" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;">[Node.js](https://nodejs.org/en/)</img>
+<img align="center" alt="NodeJS" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;">[Node.js](https://nodejs.org/en/) version 18+</img>
 
 ##### It is also recommended to have a good code editor, like the following:
 
 <img align="center" alt="VisualStudioCode" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" style="max-width:100%;">[VSCode](https://code.visualstudio.com/)</img>
 
+## How to run
+
 ### Installing on local machine
 
 ```bash
-
-# Clone the repository
-$ git clone https://github.com/DamyanBG/real-estate-react-app.git
-
-# Enter the project folder in the terminal
-$ cd real-estate-react-app
 
 # Install all the dependencies
 $ npm install
@@ -43,24 +39,7 @@ $ npm install
 $ npm start
 
 # The server will start in the port:3000
-go to http://localhost:3000/
-
-```
-
-### Run the project with Docker
-
-```bash
-
-#Clone the integration repo
-$ git clone https://github.com/DamyanBG/real-estate-integration
-
-# Add .env files
-
-# Build the image
-$ docker-compose build
-
-# Run the application
-$ docker-compose up
+go to http://localhost:5173/
 
 ```
 
@@ -72,17 +51,15 @@ To achieve this you have 3 options:
 1. To install Python and PostgreSQL, to clone the backend and run the back end.
 2. To install PostgreSQL and Docker and to use the container for the back end.
 3. To instal Docker and to use containers for the back end for the database. I recommend this way, since there will be added
-container for the NEXTCLOUD, which I am using to store the images.
+   container for the NEXTCLOUD, which I am using to store the images.
 
 ## Contributing
 
-First off, we would like to thank you for taking the time to contribute and make this a better
-project!
+First off, we would like to thank you for taking the time to contribute and make this a better project!
 
 This is perfect project for people with not so much experience in React. As such pull requests are
 welcome. For major changes, please open an issue first to discuss what you would like to change. For
 details about contributing you can access
-[contributing.](https://github.com/DamyanBG/real-estate-react-app/blob/main/CONTRIBUTING.md)
 
 And do not forget to enjoy and have fun!
 
@@ -101,6 +78,6 @@ Those following tools were used in the project development:
 
 ### **Application** ([ReactJS](https://reactjs.org/) + [Sass](https://sass-lang.com/))
 
--   **[ReactDom](https://reactjs.org/docs/react-dom.html)**
--   **[ReactRouter](https://reactrouter.com/en/main)**
--   **[ReactContext](https://reactjs.org/docs/context.html)**
+- **[ReactDom](https://reactjs.org/docs/react-dom.html)**
+- **[ReactRouter](https://reactrouter.com/en/main)**
+- **[ReactContext](https://reactjs.org/docs/context.html)**

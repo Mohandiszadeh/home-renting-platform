@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "prepare": "cd server && npm install",
-    "start": "npm run server & npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
     "server": "node ./server/index.js",
     "dev": "vite",
     "build": "vite build",
@@ -42,6 +42,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
+    "concurrently": "^9.0.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
